@@ -7,7 +7,8 @@ public class myApp extends Application {
 
     private final StorageManager storageManager = new StorageManager();
 
-    public StorageManager getStorageManager() {
+    public StorageManager getStorageManager()
+    {
         return storageManager;
     }
 
